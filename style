@@ -1,0 +1,120 @@
+body {
+  background-color:white;
+  font-family: Helvetica Neue,Helvetica,sans-serif;
+}
+
+.top {
+	
+    background-color:#fafafa;
+    position:absolute;
+    left:0; right:0; top:0;
+    height: 114px;
+	border-bottom: 1px solid #ebebeb;
+	padding-top:15px;
+  
+}
+.bottom {
+	
+    background-color:#fafafa;
+    position:absolute;
+    left:0; right:0; top:1680px;
+    height: 45px;
+	border-top: 1px solid #ebebeb;
+	padding-top:15px;
+  
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.results{
+margin-top: 120px;
+margin-left:180px;
+width:600px;
+}
+.blueText{
+color:#1a0dab;
+font-size: 18px;
+margin-top:5px;
+}
+.relatedSearches{
+font-weight: bold;
+color:#1a0dab;
+font-size: 14px;
+}
+.greenText
+{
+margin-top:0px;
+color:#006621;
+font-size:14px;
+padding:0px;
+
+}
+.smallIc{
+height:20px;
+width:15px;
+margin-left:20px;
+}
+.imgGoo
+{
+	margin-left:20px;
+    height: 44px;
+    width: 120px;	
+}
+.search{
+width:522px;
+border:0px;
+margin-left:20px;
+}
+.searchWhole {
+margin-top:30px;
+}
+.allSel{
+border:0px;
+border-bottom:3px;
+border-style:solid;
+margin-left:50px;
+color:#4285f4;
+font-weight:bold;
+
+}
+.listDiv
+{
+
+}
+.listEnt
+{
+margin-left:3px;
+text-align:center;
+}
+.listSet{
+margin-left:10px;
+}
+
+.searchDiv {
+height:44px;width:632px; background-color:white;  margin-left:20px;
+border: 1px solid #ebebeb; padding-top:10px
+}
+.searchBar{
+margin-top:20px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+	font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+	width:532px;
+	border: none;
+    padding: 0px;
+    margin: 0px;
+    z-index: 6;
+    left: 0px;
+    outline: none;
+}
